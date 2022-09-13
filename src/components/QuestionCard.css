@@ -1,0 +1,86 @@
+.question-card {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.div-question {
+  padding: 1rem;
+
+  min-height: 70vh;
+
+  box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 24px 0px, rgba(58, 58, 58, 0.376) -12px -12px 24px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 24px 0px, rgba(58, 58, 58, 0.376) -12px -12px 24px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.div-question > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-question > div > h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.div-question > div > p {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center
+}
+
+.div-question > div > div {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.div-question > div > div > button {
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  font-weight: 900;
+  background-color: transparent;
+  box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  -webkit-box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.div-question > div > div > button:disabled {
+  box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  -webkit-box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  color: rgb(45, 46, 51);
+}
+
+.div-question > div > div > button:disabled:hover {
+  background-color: red;
+}
+
+.div-question > div > div > button:hover {
+  box-shadow: rgb(21, 21, 24) 6px 6px 12px 0px inset, rgb(36, 37, 41) -6px -6px 12px 0px inset;
+  -webkit-box-shadow: rgb(21, 21, 24) 6px 6px 12px 0px inset, rgb(36, 37, 41) -6px -6px 12px 0px inset;
+}
+
+.btn-next-question {
+  width: 9rem;
+  height: 3rem;
+  color: white;
+  font-weight: 900;
+  border: none;
+  background-color: transparent;
+  box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  -webkit-box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  font-size: 1rem;
+}
+
+.btn-next-question:hover {
+  box-shadow: rgb(21, 21, 24) 6px 6px 12px 0px inset, rgb(36, 37, 41) -6px -6px 12px 0px inset;
+  -webkit-box-shadow: rgb(21, 21, 24) 6px 6px 12px 0px inset, rgb(36, 37, 41) -6px -6px 12px 0px inset;
+}

@@ -1,0 +1,32 @@
+.ranking {
+  background-color: rgb(26, 26, 26);
+  min-height: 100vh;
+  color: white;
+}
+
+.ol-ranking {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.ol-ranking > li {
+  width: 10rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  -webkit-box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  text-align: center;
+}
+
+.ol-ranking > li > img {
+  width: 100%;
+  border-radius: 10px;
+}

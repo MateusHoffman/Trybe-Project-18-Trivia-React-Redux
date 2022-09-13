@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1663096996167" clover="3.2.0">
+  <project timestamp="1663096996168" name="All files">
+    <metrics statements="121" coveredstatements="121" conditionals="33" coveredconditionals="32" methods="45" coveredmethods="45" elements="199" coveredelements="198" complexity="0" loc="121" ncloc="121" packages="3" files="9" classes="9"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="69" coveredstatements="69" conditionals="27" coveredconditionals="26" methods="24" coveredmethods="24"/>
+      <file name="Header.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/components/Header.jsx">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="20" type="stmt"/>
+        <line num="21" count="20" type="stmt"/>
+        <line num="74" count="4" type="stmt"/>
+        <line num="80" count="82" type="stmt"/>
+      </file>
+      <file name="QuestionCard.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/components/QuestionCard.jsx">
+        <metrics statements="41" coveredstatements="41" conditionals="21" coveredconditionals="20" methods="11" coveredmethods="11"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="37" count="11" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="44" count="9" type="stmt"/>
+        <line num="45" count="9" type="stmt"/>
+        <line num="46" count="9" type="stmt"/>
+        <line num="51" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="9" type="stmt"/>
+        <line num="53" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="9" type="stmt"/>
+        <line num="55" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="9" type="stmt"/>
+        <line num="60" count="11" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="76" count="72" type="stmt"/>
+        <line num="77" count="72" type="stmt"/>
+        <line num="80" count="72" type="stmt"/>
+        <line num="89" count="72" type="stmt"/>
+        <line num="93" count="305" type="cond" truecount="2" falsecount="0"/>
+        <line num="102" count="150" type="stmt"/>
+        <line num="136" count="81" type="stmt"/>
+        <line num="145" count="11" type="stmt"/>
+        <line num="146" count="8" type="stmt"/>
+        <line num="147" count="9" type="stmt"/>
+        <line num="148" count="8" type="stmt"/>
+        <line num="151" count="4" type="stmt"/>
+      </file>
+      <file name="timer.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/components/timer.jsx">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="9"/>
+        <line num="9" count="17" type="stmt"/>
+        <line num="10" count="17" type="stmt"/>
+        <line num="17" count="17" type="stmt"/>
+        <line num="18" count="17" type="stmt"/>
+        <line num="19" count="34" type="stmt"/>
+        <line num="27" count="34" type="stmt"/>
+        <line num="28" count="34" type="stmt"/>
+        <line num="30" count="34" type="stmt"/>
+        <line num="35" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="47" count="17" type="stmt"/>
+        <line num="51" count="51" type="stmt"/>
+        <line num="52" count="51" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="62" count="17" type="stmt"/>
+        <line num="63" count="35" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages">
+      <metrics statements="51" coveredstatements="51" conditionals="6" coveredconditionals="6" methods="20" coveredmethods="20"/>
+      <file name="Feedback.js" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/pages/Feedback.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="Game.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/pages/Game.jsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="11" count="11" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+      </file>
+      <file name="Login.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/pages/Login.jsx">
+        <metrics statements="29" coveredstatements="29" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="18" count="16" type="stmt"/>
+        <line num="19" count="182" type="stmt"/>
+        <line num="22" count="182" type="stmt"/>
+        <line num="23" count="182" type="cond" truecount="4" falsecount="0"/>
+        <line num="24" count="70" type="stmt"/>
+        <line num="28" count="112" type="stmt"/>
+        <line num="34" count="16" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="51" count="16" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="57" count="199" type="stmt"/>
+        <line num="58" count="199" type="stmt"/>
+        <line num="153" count="4" type="stmt"/>
+        <line num="157" count="16" type="stmt"/>
+        <line num="159" count="4" type="stmt"/>
+        <line num="161" count="4" type="stmt"/>
+      </file>
+      <file name="Ranking.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/pages/Ranking.jsx">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+      </file>
+      <file name="Settings.jsx" path="/home/hoffman/Projects/Projetos-Trybe/my-repository/trivia/src/pages/Settings.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,80 @@
+.header {
+  /* border: 1px solid red; */
+  padding: 2rem;
+}
+
+.div-header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem;
+
+  box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 24px 0px, rgba(58, 58, 58, 0.376) -12px -12px 24px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 12px 12px 24px 0px, rgba(58, 58, 58, 0.376) -12px -12px 24px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.div-scoreboard {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  width: 33%;
+}
+
+.div-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  padding-right: 1rem;
+  width: 33%;
+}
+
+.div-profile > img {
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem;
+}
+
+.div-button {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.div-button > div > button {
+  background-color: transparent;
+  box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  -webkit-box-shadow: rgb(21, 21, 24) 4px 4px 8px 0px, rgb(36, 37, 41) -4px -4px 8px 0px;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 10px;
+  margin: 0 0.5rem;
+  color: white;
+}
+
+.div-button > div > button:hover {
+  /* background-color: rgb(19, 19, 19); */
+  box-shadow: rgb(21, 21, 24) 6px 6px 12px 0px inset, rgb(36, 37, 41) -6px -6px 12px 0px inset;
+  -webkit-box-shadow: rgb(21, 21, 24) 6px 6px 12px 0px inset, rgb(36, 37, 41) -6px -6px 12px 0px inset;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 10px;
+  margin: 0 0.5rem;
+  color: white;
+}
+
+.div-button > div > h3 {
+  width: 4rem;
+}
+
+.question-card {
+  
+}
