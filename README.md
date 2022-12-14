@@ -1,6 +1,6 @@
 # 💚💚 Trybe-Project-18-Trivia-React-Redux 💚💚
 
-Project responsible for presenting my skills with React, JavaScript, React Router, Redux, React Testing Library, Jest, LocalStorage, HTML and CSS
+Project responsible for presenting my skills with React, JavaScript, React Router, Redux, React Testing Library, Jest, LocalStorage, HTML and CSS 
 
 ## Access the project:
 ### https://trybe-project-18-trivia-react-redux.vercel.app/
